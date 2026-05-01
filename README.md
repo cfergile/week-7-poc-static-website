@@ -35,3 +35,7 @@ resource "google_storage_bucket" "GCS_bucket1" {
 ``` 
 ### Future Imporvements
 Changes that could improve this infrastruture is possibly finding a more efficient way of uploading each object as oppose to each object having its own block of code as if it were a resource. I find that to be the only real downside of this infrastructure.
+
+### Website
+
+URL: https://storage.googleapis.com/week-7-poc-bucket/index.html
