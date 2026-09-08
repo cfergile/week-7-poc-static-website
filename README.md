@@ -1,6 +1,6 @@
 ### Overview
 
-In this Lab I crated a static hosted website in a bucket hosted on GCP via the Google Container Service "GCS". The infrastrucure was solely spun up using terraform as oopose to ClickOPS. The purpose of this project was to leverage the uses of terraform in creating a bucket and uploading objects to that bucket in order to crate the static website.
+In this Lab I created a static hosted website in a bucket hosted on GCP via the Google Container Service "GCS". The infrastrucure was solely spun up using terraform as oopose to ClickOPS. The purpose of this project was to leverage the uses of terraform in creating a bucket and uploading objects to that bucket in order to crate the static website.
 
 ### Findings
 By the end of my project I was able to come to several conclusions of the efficacy of terraform in the cases of creaating the necessary services and resources for my end goal. While I found terraform to be great at creating buckets, I did not however find it necessarily great at uploading objects. Each object had to be uploaded as an individual resource. This proved to be quite tedious especially in comparison to the ablity to upload several files at the click of a button when using ClickOps comparitively. Creating the bucket itself on the other hand I found to be quite advantageous especially in the consideration of hypothetically creating another bucket. In that case it would be far easier to create another bucket even if a few changes were necessary in configuration.
